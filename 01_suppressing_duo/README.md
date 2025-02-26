@@ -116,7 +116,7 @@ Note that a [VPN](https://www.princeton.edu/vpn) is required from off-campus to 
 
 ### On-Campus and Off-Campus (Recommended)
 
-When off-campus and not using a VPN, one cannot `ssh` to the login node of a Research Computing cluster. **However, for users with an account on one of the large clusters** (not Adroit, not Nobel) one can use `tigressgateway` as a proxyjump server:
+When off-campus and not using a VPN, one cannot `ssh` to the login node of a Research Computing cluster. **However, for users with an account on one of the large clusters** (not Adroit, not Nobel) one can use `tigressgateway` (anyone in the world can use it) as a proxyjump server:
 
 <p align="center"><img src="https://tigress-web.princeton.edu/~jdh4/multiplexed_connection.png" align="center"></p>
 
