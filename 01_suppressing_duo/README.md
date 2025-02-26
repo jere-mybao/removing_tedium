@@ -31,7 +31,7 @@ The use of a VPN will decrease your internet connection speed. The table below w
 | SonicWall     | 57            |    60 |
 | SonicWall     | 57            |    62 |
 
-The SonicWall VPN severely decreases transfer rates and should be avoided. If you still find poor performance with the GlobalProtect VPN then consider the multiplexing solution described below which is VPN-free.
+The SonicWall VPN severely decreases transfer rates and should be avoided. If you still find poor performance with the GlobalProtect VPN then consider the multiplexing solution described below which is VPN-free. All the VPN traffic goes through University servers.
 
 [Another approach](https://researchcomputing.princeton.edu/ssh) which does not require a VPN is to ssh to `tigressgateway.princeton.edu` and then from there, ssh to your desired cluster (e.g., della) as shown in the figure below. **You must have an account on one of the large clusters to do this.** If you are transferring many files you will want to use multiplexing to avoid Duo authentication as described below.
 
